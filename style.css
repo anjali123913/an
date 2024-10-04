@@ -1,0 +1,343 @@
+body{
+    background-image:url(../images/bu.png);
+    background-size:100% 700px;
+    padding: 0px;
+    margin: 0px;
+    background-attachment: fixed;
+}
+
+/*start Home page nav body*/
+
+nav{
+    width: 100%;
+    height: 250px;
+    background-color:rgba(0,0,0,0.8);
+    float: left;
+    box-sizing: border-box;
+    padding:20px ;
+}
+#welcome{
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    
+}
+#menu{
+    width: 750px;
+    height: 70px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    
+}
+#nav-item{
+width: 20%;
+height:70px ;
+border-width:2px ;
+border-style:solid ;
+border-color:white ;
+box-sizing: border-box;
+text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+/*end Home Page nav code*/
+
+/*start Home page section*/
+#home-section{
+
+    width:700px;
+    height:407px ;
+    box-sizing: border-box;
+    float:right ;
+    background-color:rgba(0,0,0,0.8);;
+    border-radius:700px 0px 0px 0px;
+    margin-top:5px;
+}
+#logo{
+    width: 180px;
+    height:150px ;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: white;
+    border-width:5px ;
+    margin-left: 150px;
+    margin-top:120px ;
+
+}
+#logo-text{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana;
+    color: white;
+    font-size: 160px;
+    margin-top:-30px ;
+}
+#domain{
+    margin: 0px;
+    padding: 0px;
+    color:white ;
+    font-family: verdana;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 150px;
+}
+/*end Home page section*/
+
+/*start Login page nav code*/
+#domain_name{
+    margin:0px;
+    padding:0px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family:sans-serif;
+}
+/*end Logi page nav code*/
+
+
+/*start Login page section code*/
+fieldset{
+    width: 380px;
+    height: 250px;
+    border-width:3px;
+    border-style:solid ;
+    border-color:white ;
+    margin-left: 150px;
+    padding:20px ;
+
+}
+#login-section{
+    width:700px;
+    height:407px ;
+    box-sizing: border-box;
+    float:right ;
+    background-color:rgba(0,0,0,0.8);;
+    border-radius:200px 0px 0px 0px;
+    margin-top:5px;
+    padding:40px;
+    
+}
+legend{
+    font-family: century gothic;
+    color:white ;
+    font-size: 20px;
+    font-weight:bold ;
+}
+#login-form{
+    font-family: century gothic;
+    color: white;
+    font-size:19px;
+}
+#username{
+    width: 100%;
+    height: 30px;
+    background-color: inherit;
+    border: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+}
+#password{
+    width: 100%;
+    height: 30px;
+    background-color: inherit;
+    border: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+} 
+#login-btn{
+    width:100px;
+    height:40px ;
+    float:right ;
+    margin-top:5px;
+    background-color: inherit;
+    border: none;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    color:white ;
+    font-family: century gothic;
+    font-size:15px ;
+}
+/*end Login page section code*/
+
+/*start contact page section code*/
+#Contact{
+    color: white;
+    font-size:18px;
+    font-style:normal ;
+    font-family: century gothic;
+    line-height:30px ;
+}
+/*end contact page section code*/
+
+/*start product section code*/
+#product-section{
+    width:100% ;
+    height:1800px ;
+    float: left;
+    box-sizing: border-box;
+}
+#brand{
+    width: 100%;
+    height: 300px;
+    background-color:rgba(255,255,255,0.8) ;
+    float: left;
+    box-sizing: border-box;
+}
+#brand-heading{
+    text-align: center;
+    font-family:century gothic ;
+    font-size: 30px;
+
+}
+#brand-pic{
+    width:200px ;
+    height:80px ;
+    float: left;
+    box-sizing: border-box;
+    border-width:3px ;
+    border-style: solid;
+    border-color:black ;
+    margin:34px ;
+    margin-top:0px ;
+    background-color: white;
+}
+#search{
+    width:60% ;
+    height: 50px;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 20%;
+    margin-right:20% ;
+    margin-top: 20px;
+    border-width:1px;
+    border:none ;
+    border-style: solid;
+    border-color: #ccc;
+    font-size:18 px;
+    padding:10px ;
+    background-image:url(../images/search.png) ;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#crown-product{
+    width:100% ;
+    height: 500px;
+    float:left ;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.8);
+}
+#Crown{
+    text-align: center;
+    color:white ;
+    font-family:century gothic ;
+    font-size:35px ;
+}
+#crown-product-pic{
+    width:250px ;
+    height:300px ;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    float: left;
+    box-sizing: border-box;
+    margin:40px ;
+}
+#dove-product{
+    width:100% ;
+    height: 500px;
+    float:left ;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.8);
+}
+#dove{
+
+    text-align: center;
+    color:white ;
+    font-family:century gothic ;
+    font-size:35px ;
+}
+#dove-product-pic{
+    width:250px ;
+    height:300px ;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    float: left;
+    box-sizing: border-box;
+    margin:40px ;
+}
+#garnier-product{
+    width:100% ;
+    height: 500px;
+    float:left ;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.8);
+}
+#garier{
+    text-align: center;
+    color:white ;
+    font-family:century gothic ;
+    font-size:35px ;
+}
+#garnier-product-pic{
+    width:250px ;
+    height:300px ;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    float: left;
+    box-sizing: border-box;
+    margin:40px ;
+}
+#product-name{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+    margin-top:5px ;
+    font-size:15px;
+}
+#product-price{
+    padding: 0px;
+    margin: 0px;
+    color:white ;
+    font-family: sans-serif;
+    float: left;
+}
+#buy{
+    padding: 0px;
+    margin: 0px;
+    color:white ;
+    font-family: sans-serif;
+    float:right;
+}
+/*start product section code*/
+
+/*start footer code*/
+footer{
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    float: left;
+    background-color: rgba(255,255,255,0.8);
+    text-align: center;
+    font-family:sans-serif ;
+}
+/*end footer code*/
